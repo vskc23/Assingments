@@ -1,0 +1,177 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-05T09:03:07.764Z",
+    "end": "2020-10-05T09:03:07.803Z",
+    "duration": 39,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1a47ca4e-5397-4b1a-bd0a-e68e4a577486",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "581d836d-243a-4621-8838-b7f5d9c0d56b",
+          "title": "Cash Register",
+          "fullFile": "C:\\Users\\chaitanya\\Desktop\\MyReactApp\\test\\expect.js",
+          "file": "\\test\\expect.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "336ad9ea-9335-4e88-95aa-01130f29f95b",
+              "title": "Module C",
+              "fullFile": "C:\\Users\\chaitanya\\Desktop\\MyReactApp\\test\\expect.js",
+              "file": "\\test\\expect.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should have a getChange Method",
+                  "fullTitle": "Cash Register Module C should have a getChange Method",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(typeof C, 'object');\nassert.equal(typeof C.getChange, 'function');",
+                  "err": {},
+                  "uuid": "977c4bca-fd6c-464c-b616-9b1b2a672b51",
+                  "parentUUID": "336ad9ea-9335-4e88-95aa-01130f29f95b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "977c4bca-fd6c-464c-b616-9b1b2a672b51"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "285dba64-f845-429d-b7e1-1a3b766ef4cd",
+          "title": "Cash Register",
+          "fullFile": "C:\\Users\\chaitanya\\Desktop\\MyReactApp\\test\\my-test.js",
+          "file": "\\test\\my-test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "aede5cab-9adc-4c81-81ce-88749ff3c379",
+              "title": "Module C",
+              "fullFile": "C:\\Users\\chaitanya\\Desktop\\MyReactApp\\test\\my-test.js",
+              "file": "\\test\\my-test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should have a getChange Method",
+                  "fullTitle": "Cash Register Module C should have a getChange Method",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(typeof C, 'object');\nassert.equal(typeof C.getChange, 'function');",
+                  "err": {},
+                  "uuid": "6a0ee7a3-2603-4ed4-a736-8a993844613b",
+                  "parentUUID": "aede5cab-9adc-4c81-81ce-88749ff3c379",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "6a0ee7a3-2603-4ed4-a736-8a993844613b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
