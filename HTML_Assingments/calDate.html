@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <script type="text/javascript">
+       
+        function GetDays(){
+                var newd = new Date(document.getElementById("d1").value);
+                var oldd = new Date(document.getElementById("d2").value);
+                 x = parseInt((newd - oldd) / (24 * 3600 * 1000));
+                 alert(" The number of days between the two dates is " + Math.floor(x));
+                 alert(" The number of years between the two dates is " + Math.floor(x/365));
+        }
+ </script>
+</head>
+<body>
+Date 1: <input type="date" id="d1" value="Mickey">
+<br>
+Date 2: <input type="date" id="d2" value="Mickey">
+<p>Click the button to get the difference between dates.</p>
+<button onclick="GetDays()">Click</button>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> </title>
+</head>
+<body>
+    <h1>Displaying a digital clock</h1>
+    <div id ="digi"></div>
+    <script type="text/javascript">
+        var date = new Date();
+        var hours = date.getHours();
+        var min = date.getMinutes();
+        var sec = date.getSeconds();
+        document.getElementById("digi").innerHTML=hours + ":" + min + ":" + sec;
+        location.reload();
+    </script>
+</body>    
+</html>

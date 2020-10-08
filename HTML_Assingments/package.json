@@ -1,0 +1,39 @@
+{
+  "_from": "assinments_react_dbst",
+  "_id": "assinments_react_dbst@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KeWLOlelsZRtEn0O/g0wLWOPSO2FkT3pQmOl3FHm7zyDd2AuHX7xM+dmBh2gyJ7t/XyNjTknV6FpuY6awQDr/g==",
+  "_location": "/assinments_react_dbst",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "assinments_react_dbst",
+    "name": "assinments_react_dbst",
+    "escapedName": "assinments_react_dbst",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/assinments_react_dbst/-/assinments_react_dbst-1.0.0.tgz",
+  "_shasum": "8f619eca7d17ac088fefda0582de88d082d67bf9",
+  "_spec": "assinments_react_dbst",
+  "_where": "C:\\Users\\CHAITANYA23\\Desktop\\onetwo",
+  "author": {
+    "name": "SRI KRISHNA CHAITANYA VELAMAKANNI"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "assinments_react_dbst",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
