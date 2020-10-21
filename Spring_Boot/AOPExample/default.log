@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-15T05:58:00.109131200Z</date>
+  <millis>1602741480109</millis>
+  <nanos>131200</nanos>
+  <sequence>2</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>SEVERE</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>severe message</message>
+</record>
+<record>
+  <date>2020-10-15T05:58:00.125089100Z</date>
+  <millis>1602741480125</millis>
+  <nanos>89100</nanos>
+  <sequence>3</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>WARNING</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>warning message</message>
+</record>
+<record>
+  <date>2020-10-15T05:58:00.127083900Z</date>
+  <millis>1602741480127</millis>
+  <nanos>83900</nanos>
+  <sequence>4</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>INFO</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>info message</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-15T05:59:12.710524200Z</date>
+  <millis>1602741552710</millis>
+  <nanos>524200</nanos>
+  <sequence>2</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>SEVERE</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>severe message</message>
+</record>
+<record>
+  <date>2020-10-15T05:59:12.721470400Z</date>
+  <millis>1602741552721</millis>
+  <nanos>470400</nanos>
+  <sequence>3</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>WARNING</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>warning message</message>
+</record>
+<record>
+  <date>2020-10-15T05:59:12.721470400Z</date>
+  <millis>1602741552721</millis>
+  <nanos>470400</nanos>
+  <sequence>4</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>INFO</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>info message</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-15T06:00:32.579743500Z</date>
+  <millis>1602741632579</millis>
+  <nanos>743500</nanos>
+  <sequence>2</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>INFO</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>After advice logging</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-15T06:02:07.720710900Z</date>
+  <millis>1602741727720</millis>
+  <nanos>710900</nanos>
+  <sequence>2</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>INFO</level>
+  <class>com.training.org.BeforeAdvice</class>
+  <method>before</method>
+  <thread>1</thread>
+  <message>Before advice logging</message>
+</record>
+<record>
+  <date>2020-10-15T06:02:07.747606600Z</date>
+  <millis>1602741727747</millis>
+  <nanos>606600</nanos>
+  <sequence>3</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>INFO</level>
+  <class>com.training.org.AfterAdvice</class>
+  <method>afterReturning</method>
+  <thread>1</thread>
+  <message>After advice logging</message>
+</record>

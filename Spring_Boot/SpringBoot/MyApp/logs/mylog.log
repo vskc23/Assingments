@@ -1,0 +1,57 @@
+2020-10-16 12:37:56.122 ERROR 6312 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mail.user.roles[0]' to javax.management.relation.Role:
+
+    Property: mail.user.roles[0]
+    Value: sds
+    Origin: class path resource [application.properties]:34:20
+    Reason: No converter found capable of converting from type [java.lang.String] to type [javax.management.relation.Role]
+
+Action:
+
+Update your application's configuration
+
+2020-10-16 12:38:09.150 ERROR 6312 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mail.user.roles[0]' to javax.management.relation.Role:
+
+    Property: mail.user.roles[0]
+    Value: sds
+    Origin: class path resource [application.properties]:34:20
+    Reason: No converter found capable of converting from type [java.lang.String] to type [javax.management.relation.Role]
+
+Action:
+
+Update your application's configuration
+
+2020-10-16 12:38:29.164 ERROR 6312 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'mail.user.roles[0]' to javax.management.relation.Role:
+
+    Property: mail.user.roles[0]
+    Value: sds
+    Origin: class path resource [application.properties]:34:20
+    Reason: No converter found capable of converting from type [java.lang.String] to type [javax.management.relation.Role]
+
+Action:
+
+Update your application's configuration
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	
+	<bean id="address1" class="com.training.org.Address">
+		<property name="lane" value="Kohinoor road"></property>
+		<property name="city" value="pune"></property>
+		<property name="state" value="MH"></property>
+	</bean>
+
+	<bean id="empBeanBySetter" class="com.training.org.Employee">
+		<property name="empId" value="101"></property>
+		<property name="name" value="tanish"></property>
+		<property name="salary" value="10000"></property>
+		<property name="address" ref="address1"></property>
+		<property name ="projects">
+			<list>
+			<value>Angular</value>
+			<value>Axis Angular</value>
+			<value>Bank Angular</value>
+			</list>
+		</property>
+		
+		
+		<property name="listOfProjects">
+		<list>
+		<ref bean="project1" />
+		<ref bean="project2" />
+		</list>
+		</property> 	
+	</bean>
+</beans>
